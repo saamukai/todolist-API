@@ -1,5 +1,5 @@
 # todolist-API
-API de uma lista de tarefas criada em python utilizando fastAPI. Realizada afins de aprendizagem sobre API's. 
+API de uma lista de tarefas criada em python utilizando fastAPI. Realizada afins de aprendizagem sobre API's.
 ### Caracteristicas da API
 - Criar nova tarefa
 - Listar terafas por:
@@ -10,3 +10,6 @@ API de uma lista de tarefas criada em python utilizando fastAPI. Realizada afins
     - realizada
     - não realizada
 - Deletar tarefa
+
+### 'Operações' da API
+![opsapi](todolist-API.png)

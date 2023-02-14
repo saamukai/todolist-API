@@ -32,7 +32,7 @@ def listTaskFilter(opcao: int = 0):
         return list(filter(lambda x: x.realizada == True, task_list))
 
 
-@app.get('/task/{id}')
+@app.get('/infotask/{id}')
 def getTaskByID(id: int):
     try:
         return task_list[id]
@@ -44,7 +44,7 @@ def listAllTasks():
         return task_list
 
 
-@app.post('/updateTask')
+@app.post('/updatetask')
 def updateTask(id: int):
     try:
         task_list[id].realizada = not task_list[id].realizada
